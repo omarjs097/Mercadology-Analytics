@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: Helvetica-Bold;
+    src: url(assets/fonts/Helvetica-Bold.ttf) format("opentype");
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(assets/fonts/Poppins-Regular.ttf) format("opentype");
+}
+
+* {
+    font-family: 'Poppins-Regular';
+    background: #242424;
+    color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica-Bold';
+}
+
+p {
+    font-size: 18px;
+}
+
+
+/* colores globales */
+
+.bg-rojo {
+    background: #FC041C;
+}
+
+.text-rojo {
+    color: #FC041C;
+}
+
+.bg-gris {
+    background: #646464;
+}
+
+.text-gris {
+    color: #646464;
+}
+
+.bg-amarillo {
+    background: #FCC42C;
+}
+
+.text-amarillo {
+    color: #FCC42C;
+}
+
+.bg-verde {
+    background: #6CC474;
+}
+
+.text-verde {
+    color: #6CC474;
+}
+
+.bg-naranja {
+    background: #FC6434;
+}
+
+.text-naranja {
+    color: #FC6434;
+}
