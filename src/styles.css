@@ -36,6 +36,14 @@ p {
 
 /* colores globales */
 
+.bg-blanco {
+    background: #ffffff;
+}
+
+.text-blanco {
+    color: #ffffff;
+}
+
 .bg-rojo {
     background: #FC041C;
 }
