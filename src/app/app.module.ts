@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ReportesComponent } from './components/reportes/reportes.component';
+import { CuentaUsuarioComponent } from './components/cuenta-usuario/cuenta-usuario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ReportesComponent
+    ReportesComponent,
+    CuentaUsuarioComponent
   ],
   imports: [
     BrowserModule
