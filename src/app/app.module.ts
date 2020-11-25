@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ReportesComponent } from './components/reportes/reportes.component';
 import { CuentaUsuarioComponent } from './components/cuenta-usuario/cuenta-usuario.component';
-import { GestionarComponent } from './gestionar/gestionar.component';
+import { GestionarComponent } from './components/gestionar/gestionar.component';
 
 @NgModule({
   declarations: [
