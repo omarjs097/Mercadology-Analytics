@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { routing, appRoutingProviders } from './app.routing';
+import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ReportesComponent } from './components/reportes/reportes.component';
@@ -16,9 +19,13 @@ import { GestionarComponent } from './components/gestionar/gestionar.component';
     GestionarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    routing
   ],
-  providers: [],
+  providers: [
+    appRoutingProviders
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,7 +3,7 @@ import { ModuleWithProviders } from '@angular/core';
 import {Routes,RouterModule} from '@angular/router';
 
 
-// importar todos los componenetes que uilizaremos
+// importar todos los componentes que uilizaremos
 import { HomeComponent } from './components/home/home.component';
 import { GestionarComponent } from './components/gestionar/gestionar.component';
 
@@ -12,10 +12,10 @@ import { CuentaUsuarioComponent } from './components/cuenta-usuario/cuenta-usuar
 
 // ruta
 const appRoutes: Routes =[
-    {path: '**', component: HomeComponent},
+    {path: 'Home', component: HomeComponent},
     {path: 'Gestion', component: GestionarComponent},
     {path: 'Usuario', component: CuentaUsuarioComponent},
-    {path: 'Resporte', component: ReportesComponent}
+    {path: 'Reporte', component: ReportesComponent}
 
 
 ];
