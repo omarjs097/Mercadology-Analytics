@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mercadology"
+    }
+  },
+  "defaultProject": "mercadology",
+  "cli": {
+    "analytics": false
+  }
 }
