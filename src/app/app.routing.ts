@@ -2,15 +2,18 @@
 import { ModuleWithProviders } from '@angular/core';
 import {Routes,RouterModule} from '@angular/router';
 
-
 // importar todos los componenetes que uilizaremos
-import { HomeComponent } from './home/home.component';
-
-//import { VideojuegoComponent } from './videojuego/videojuego.componet';
-
+import { HomeComponent } from './components/home/home.component';
+import { CuentaUsuarioComponent } from './components/cuenta-usuario/cuenta-usuario.component';
+import { ReportesComponent } from './components/reportes/reportes.component';
+import{ CuentasComponent} from './components/cuentas/cuentas.component';
 // ruta
 const appRoutes: Routes =[
-    {path: '**', component: HomeComponent}
+    {path: 'home', component: HomeComponent},
+    {path: 'cuentaUsuario', component: CuentaUsuarioComponent},
+    {path: 'reportes', component: ReportesComponent },
+    {path: 'cuentas', component: CuentasComponent }
+
 
 ];
 

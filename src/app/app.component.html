@@ -1,2 +1,15 @@
+<header>
+    <ul>
+        <li id="logo"><a href="#">Mercadology</a></li>
+        <li><a [routerLink]="['/cuentas']" [routerLinkActive]="['actived']">Cuentas</a></li>
+        <li><a [routerLink]="['/cuentaUsuario']" [routerLinkActive]="['actived']">Cuentas Usuarios</a></li>
+    </ul>
+</header>
+
+<section id="content">
+    <router-outlet></router-outlet>
+  </section>
+  
 <!-- <app-cuenta-usuario></app-cuenta-usuario> -->
-<app-reportes></app-reportes>
+<!--<app-reportes></app-reportes>-->
+<!-- <app-cuenta-usuario></app-cuenta-administrador> -->

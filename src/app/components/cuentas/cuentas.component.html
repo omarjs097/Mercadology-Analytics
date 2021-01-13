@@ -1,0 +1,113 @@
+<h1>{{title}}</h1>
+
+<form #empresaForm="ngForm" (ngSubmit)="onSubmit(empresaForm)">
+    <p>
+
+        <label for="name">dominio</label>
+        <input type="text" name="dominio" #dominio="ngModel" [(ngModel)]="empresa.dominio" required />
+
+    </p>
+
+    <p>
+        <label for="description">empresas</label>
+        <input type="text" name="empresas" #empresas="ngModel" [(ngModel)]="empresa.empresas" required/>
+    </p>
+
+    <p>
+        <label for="category">direccion ip</label>
+        <input type="text" name="direccion_ip" #direccion_ip="ngModel" [(ngModel)]="empresa.direccion_ip" required />
+
+    </p>
+
+    <p>
+        <label for="year">Nombre Base de datos</label>
+        <input type="text" name="bd_name" #bd_name="ngModel" [(ngModel)]="empresa.bd_name" />
+    </p>
+
+    <p>
+        <label for="langs">Nombre Usuario base</label>
+        <input type="text" name="bd_user" #bd_user="ngModel" [(ngModel)]="empresa.bd_user" required />
+    </p>
+    <p>
+        <label for="langs">bd_pass</label>
+        <input type="text" name="bd_pass" #bd_pass="ngModel" [(ngModel)]="empresa.bd_pass" required />
+    </p>
+    <p>
+        <label for="langs">user_ftp</label>
+        <input type="text" name="user_ftp" #user_ftp="ngModel" [(ngModel)]="empresa.user_ftp" required />
+    </p>
+    <p>
+        <label for="langs">user_ftp_pass</label>
+        <input type="text" name="user_ftp_pass" #user_ftp_pass="ngModel" [(ngModel)]="empresa.user_ftp_pass" required />
+    </p>
+    <p>
+        <label for="langs">hospedaje:</label>
+        <input type="text" name="hospedaje" #hospedaje="ngModel" [(ngModel)]="empresa.hospedaje" required />
+    </p>
+    <p>
+        <label for="langs">vencimiento: </label>
+        <input type="text" name="vencimiento" #vencimiento="ngModel" [(ngModel)]="empresa.vencimiento" required />
+    </p>
+    <p>
+        <label for="langs">correo_hospedaje:</label>
+        <input type="text" name="correo_hospedaje" #correo_hospedaje="ngModel" [(ngModel)]="empresa.correo_hospedaje"
+            required />
+    </p>
+    <p>
+        <label for="langs">pass_hospedaje:</label>
+        <input type="text" name="pass_hospedaje" #pass_hospedaje="ngModel" [(ngModel)]="empresa.pass_hospedaje"
+            required />
+    </p>
+    <p>
+        <label for="langs">donde_dominio:</label>
+        <input type="text" name="donde_dominio" #donde_dominio="ngModel" [(ngModel)]="empresa.donde_dominio" required />
+    </p>
+    <p>
+        <label for="langs">vencimiento_dominio:</label>
+        <input type="text" name="vencimiento_dominio" #vencimiento_dominio="ngModel"
+            [(ngModel)]="empresa.vencimiento_dominio" required />
+    </p>
+    <p>
+        <label for="langs">correo_registrador:</label>
+        <input type="text" name="correo_registrador" #correo_registrador="ngModel"
+            [(ngModel)]="empresa.correo_registrador" required />
+    </p>
+    <p>
+        <label for="langs">pass_registrador:</label>
+        <input type="text" name="pass_registrador" #pass_registrador="ngModel" [(ngModel)]="empresa.pass_registrador"
+            required />
+    </p>
+    <p>
+        <label for="langs">cuenta_admin_zoho</label>
+        <input type="text" name="cuenta_admin_zoho<" #cuenta_admin_zoho="ngModel"
+            [(ngModel)]="empresa.cuenta_admin_zoho" required />
+    </p>
+    <p>
+        <label for="langs">correo_zoho:</label>
+        <input type="text" name="correo_zoho" #correo_zoho="ngModel" [(ngModel)]="empresa.correo_zoho" required />
+    </p>
+    <p>
+        <label for="langs">pass_zoho:</label>
+        <input type="text" name="pass_zoho" #pass_zoho="ngModel" [(ngModel)]="empresa.pass_zoho" required />
+    </p>
+    <p>
+        <label for="langs">cpanel2082_correo:</label>
+        <input type="text" name="cpanel2082_correo" #cpanel2082_correo="ngModel" [(ngModel)]="empresa.cpanel2082_correo"
+            required />
+    </p>
+    <p>
+        <label for="langs">cpanel2082_pass:</label>
+        <input type="text" name="cpanel2082_pass" #cpanel2082_pass="ngModel" [(ngModel)]="empresa.cpanel2082_pass"
+            required />
+    </p>
+    <p>
+        <label for="langs">comentarios:</label>
+        <input type="text" name="comentarios" #comentarios="ngModel" [(ngModel)]="empresa.comentarios" required />
+    </p>
+    <p>
+        <label for="langs">vencimiento_ssl:</label>
+        <input type="text" name="vencimiento_ssl" #vencimiento_ssl="ngModel" [(ngModel)]="empresa.vencimiento_ssl"
+            required />
+    </p>
+    <input type="submit" value="Enviar"  />
+</form>
