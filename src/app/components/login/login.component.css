@@ -1,0 +1,33 @@
+.col-login {
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form-label {
+    color: #fff;
+}
+
+.cont-img {
+    display: flex;
+    justify-content: center;
+}
+
+.img-login {
+    width: 300px;
+}
+
+.cont-restablecer {
+    display: flex;
+    justify-content: center;
+}
+
+.text-restablecer {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.text-restablecer:hover {
+    color: #86b7fe;
+}

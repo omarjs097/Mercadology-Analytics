@@ -11,6 +11,10 @@
     src: url('./assets/fonts/Poppins-Regular.ttf');
 }
 
+body {
+    background-color: #242424;
+}
+
 .rojo {
     background-color: #FC041C;
 }
