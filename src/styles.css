@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: 'Helvetica-Bold';
+    src: url('./assets/fonts/Helvetica-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('./assets/fonts/Poppins-Regular.ttf');
+}
+
+.rojo {
+    background-color: #FC041C;
+}
+
+.gris {
+    background-color: #646464;
+}
+
+.negro {
+    background-color: #242424;
+}
+
+.amarillo {
+    background-color: #FCC42C;
+}
+
+.verde {
+    background-color: #6CC474;
+}
+
+.naranja {
+    background-color: #FC6434;
+}
