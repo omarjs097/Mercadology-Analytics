@@ -1,0 +1,6 @@
+image:
+  file: gitpod/workspace-mongodb
+
+tasks:
+  - init: npm install && npm run build
+    command: npm run start
